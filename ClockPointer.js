@@ -1,6 +1,6 @@
 'use strict';
 import { colors } from './config.js';
-import { PI_HALF, radToTime, clock, ctx } from './script.js';
+import { PI_HALF, radToTime, clock, ctx } from './main-script.js';
 
 export class ClockPointer {
 	constructor(name, timeUnit, max, bodyLen, width, tail) {
