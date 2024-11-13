@@ -10,7 +10,7 @@ import {
 	PI_HALF,
 	LOAD_TIME,
 	timeToRad,
-} from './script.js';
+} from './main-script.js';
 
 // --- Adjust clock by user ---
 export const adjustBtn = document.querySelector('#adjust');
