@@ -152,8 +152,8 @@ export default class Clock {
 
 			const start = this.getPointCoordinates(grad.angle, startDistance);
 			const end = this.getPointCoordinates(grad.angle, startDistance + grad.length);
-			grad.path.moveTo(start);
-			grad.path.lineTo(end);
+			grad.path.moveTo(...start);
+			grad.path.lineTo(...end);
 		}
 	}
 
