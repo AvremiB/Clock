@@ -33,7 +33,6 @@ export function radToTime(rad, max) {
 	else if (toTime > max) toTime -= max;
 	return toTime;
 }
-CanvasRenderingContext2D.prototype.textRendering
 
 export let adjustMode = false;
 
