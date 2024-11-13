@@ -1,6 +1,6 @@
 'use strict';
 import { colors, preferences } from './config.js';
-import { maxY, maxX, ctx, WHOLE_ANGLE, timeToRad, PI_HALF } from './script.js';
+import { maxY, maxX, ctx, WHOLE_ANGLE, timeToRad, PI_HALF } from './main-script.js';
 import { ClockPointer } from './ClockPointer.js';
 import { Point } from './Point.js';
 
