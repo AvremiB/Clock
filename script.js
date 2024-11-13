@@ -447,7 +447,10 @@ adjustBtn.addEventListener('click', () => {
 	adjustMode = !adjustMode;
 	if (adjustMode) {
 		startAdjustMode();
-	} else endAdjustMode();
+	} else {
+	  endAdjustMode();
+	  console.error('בגרסה זו כוונון השעון אינו עובד כמצופה.');
+	}
 });
 
 initializeBtn.addEventListener('click', () => {
