@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>שעון</title>
+	<link rel="icon" type="image/png" href="clock.png" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div id="messages-line"></div>
+	<canvas></canvas>
+	<div id="show-tools">
+		<table id="mini-clock">
+			<tbody>
+				<tr>
+					<td id="pointers"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+	<div id="tools-dialog" hidden>
+		<h2>כלים</h2>
+		<div>קצב סיבוב:</div>
+		<div class="tool-option">
+			<div id="rhythm-flow">
+				<input type="radio" checked />
+				<span>רציף</span>
+			</div>
+			<div id="rhythm-tick">
+				<input type="radio" />
+				<span>תקתוק</span>
+			</div>
+		</div>
+		<button id="adjust" type="button">כוון</button><br />
+		<button id="initialize" hidden type="button">אפס</button>
+	</div>
+	<script src="updateByAngle.js"></script>
+</body>
+
+</html>
