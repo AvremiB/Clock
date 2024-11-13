@@ -493,6 +493,3 @@ function log(varsStr) {
 	}
 	console.log(toLog);
 }
-
-adjustMode = true;
-startAdjustMode();
